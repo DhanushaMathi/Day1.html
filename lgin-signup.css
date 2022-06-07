@@ -1,0 +1,28 @@
+.sp {
+    height: 100%;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .left {
+    left: 0;
+    background-color:purple;
+    background-image:"C:\Users\003S5A744\workspace\lvbg.jpg";
+  }
+  .right {
+    right: 0;
+    background-color: violet;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
